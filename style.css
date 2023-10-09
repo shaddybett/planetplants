@@ -1,8 +1,8 @@
 #top-bar{
-    background-color: blue;
+    background-color: green;
     color: white;
     padding: 10px;
-    font-size: larger;
+    font-size: xx-large;
     font-weight: 200px;
     margin-bottom: 20px;
 }
@@ -28,8 +28,47 @@
 }
 
 .search-section button:hover{
-    background-color: purple;
+    background-color: aqua;
     cursor: pointer;
 
 }
 
+#all-plants{
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+}
+
+#plants img{
+    border-radius: 10px;
+    height: 400px;
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 20px;
+    display: block;
+}
+
+#plants span{
+    margin-left: 20px;
+    font-size: x-large;
+    
+    
+    
+}
+
+.new{
+    display: flex;
+    margin-top: 40px;
+}
+
+#plants button{
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#plants button:hover{
+    background-color: aqua;
+}
