@@ -4,4 +4,32 @@
     padding: 10px;
     font-size: larger;
     font-weight: 200px;
+    margin-bottom: 20px;
 }
+
+.search-section{
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.search-section input{
+    padding: 20px,20px;
+    margin: 8px;
+    border: 1px solid #cccccc ;
+    border-radius: 4px;
+}
+
+.search-section button{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.search-section button:hover{
+    background-color: purple;
+    cursor: pointer;
+
+}
+
